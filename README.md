@@ -20,6 +20,7 @@ AlbionVault is a comprehensive management tool for Albion Online players, design
 - (More to be added)
 
 ## 💻 Getting Started
+
 ```bash
 # Install dependencies
 npm install
