@@ -1,11 +1,11 @@
 /**
  * Player details page
- * Página de detalhes do jogador
+ * Pagina de detalhes do jogador
  */
 
 'use client';
 
-import { use, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import {
   User,
@@ -50,7 +50,6 @@ export default function PlayerDetailPage() {
     deathsLoading,
     getPlayerDeaths,
     searchPlayer,
-    searchResults,
   } = usePlayer();
 
   const { isFavorite, addFavorite, removeFavorite } = useFavoritesStore();
@@ -131,7 +130,6 @@ export default function PlayerDetailPage() {
 
   const killFame = player.killFame || 0;
   const deathFame = player.deathFame || 0;
-  const fameRatio = player.fameRatio || 0;
 
   return (
     <div className="container mx-auto py-8 px-4 max-w-6xl">

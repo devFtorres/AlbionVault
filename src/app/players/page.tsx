@@ -1,6 +1,6 @@
 /**
  * Players search and listing page
- * Página de busca e listagem de jogadores
+ * Pagina de busca e listagem de jogadores
  */
 
 'use client';
