@@ -20,7 +20,7 @@ export function Footer() {
             <span>AlbionVault</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            © {currentYear} AlbionVault. All rights reserved.
+            &copy; {currentYear} AlbionVault. All rights reserved.
           </p>
         </div>
 
